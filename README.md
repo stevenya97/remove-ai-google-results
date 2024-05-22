@@ -38,4 +38,4 @@ In addition to these you will probably also want a couple of extensions/filters:
 - ~~[Personal Blocklist (not by Google)](https://addons.mozilla.org/en-US/firefox/addon/personal-blocklist/) to remove over-SEOed sites that keep coming up on topics you search frequently~~ no longer maintained
 - ~~[ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) to remove tracking elements from URLs~~ redundant with uBlock Origin's `removeparam` and added lists.
 
-Ideas and methods forked from [https://blog.zgp.org/custom-google-search/](https://blog.zgp.org/custom-google-search/)
+Ideas and methods forked from [https://blog.zgp.org/custom-google-search/](https://blog.zgp.org/custom-google-search/) and [this r/Firefox post](https://www.reddit.com/r/firefox/comments/1cxmj14/remove_ai_from_google_search_on_firefox/)
