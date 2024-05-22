@@ -1,5 +1,5 @@
 # Remove AI Results from Google Search
-Removes 'AI' Gemini genreated content from the top of Google search results on Firefox as of May 22,2024. (Tested on desktop Firefox for Windows/macOS)
+Removes 'AI' Gemini generated content from the top of Google search results on Firefox as of May 22,2024. (Tested on desktop Firefox for Windows/macOS)
 Instead now defaults searches to 'Web', which is what Google now names its traditional SEO search results links.
 
 ### Steps
