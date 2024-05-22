@@ -2,6 +2,8 @@
 Removes 'AI' Gemini generated content from the top of Google search results on Firefox as of May 22,2024. (Tested on desktop Firefox for Windows/macOS)
 Instead now defaults searches to 'Web', which is what Google now names its traditional SEO search results links.
 
+![google-search-filters](https://github.com/stevenya97/remove-ai-google/assets/10717304/1029d62c-79ee-42af-b1ad-6c98fb848835)
+
 ### Steps
 With Firefox:
 1. Do a regular Google search for a word.
@@ -16,9 +18,10 @@ With Firefox:
 To use, type in your keyword(s) into the search bar, add a space, and type your search query.
 
 ### Explanation
-The URL `https://www.google.com/search?q=%s&udm=14` is used to insert your search query. `%s` is the typed query and `&udm=14` is appended to tell google to return a traditional `Web` search. The default `All` search now includes AI overviews and results. 'Web` includes just SEO links we all know and love.
 
-![google-search-filters](https://github.com/stevenya97/remove-ai-google/assets/10717304/1029d62c-79ee-42af-b1ad-6c98fb848835)
+The URL `https://www.google.com/search?q=%s&udm=14` is used to insert your search query. `%s` is the typed query and `&udm=14` is appended to tell google to return a traditional `Web` search. The default `All` search can now include AI overviews and results. 'Web` includes just SEO links we all know and love.
+
+![search-result](https://github.com/stevenya97/remove-ai-google/assets/10717304/cf7fce3b-e2ba-4389-8d28-a43482152a00)
 
 ### Misc.
 In addition to these you will probably also want a couple of extensions/filters:
