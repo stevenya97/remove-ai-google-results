@@ -1,6 +1,6 @@
 # Remove AI Results from Google Search
-Removes 'AI' results from the top of Google search results on Firefox. (Tested on desktop Firefox for Windows/macOS)
-Instead defaults searches to 'web', which is what Google now names its traditional links-based SEO search results.
+Removes 'AI' Gemini genreated content from the top of Google search results on Firefox as of May 22,2024. (Tested on desktop Firefox for Windows/macOS)
+Instead now defaults searches to 'Web', which is what Google now names its traditional SEO search results links.
 
 ### Steps
 With Firefox:
@@ -37,3 +37,5 @@ In addition to these you will probably also want a couple of extensions/filters:
 ### Removed
 - ~~[Personal Blocklist (not by Google)](https://addons.mozilla.org/en-US/firefox/addon/personal-blocklist/) to remove over-SEOed sites that keep coming up on topics you search frequently~~ no longer maintained
 - ~~[ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) to remove tracking elements from URLs~~ redundant with uBlock Origin's `removeparam` and added lists.
+
+Ideas and methods forked from [https://blog.zgp.org/custom-google-search/](https://blog.zgp.org/custom-google-search/)
