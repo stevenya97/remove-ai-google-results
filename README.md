@@ -5,7 +5,7 @@ Instead now defaults searches to 'Web', which is what Google now names its tradi
 ![google-search-filters](https://github.com/stevenya97/remove-ai-google/assets/10717304/1029d62c-79ee-42af-b1ad-6c98fb848835)
 
 ### Steps
-With Firefox:
+Bookmark method with Firefox:
 1. Do a regular Google search for a word.
 2. Bookmark the search result page.
 3. Go to the hamburger menu → Bookmarks → Manage Bookmarks.
@@ -17,6 +17,7 @@ With Firefox:
 
 To use, type in your keyword(s) into the search bar, add a space, and type your search query.
 
+Alternatively, [udm14.com](https://udm14.com) offers a classic search GUI that does the same thing.
 ### Explanation
 
 The URL `https://www.google.com/search?q=%s&udm=14` is used to insert your search query. `%s` is the typed query and `&udm=14` is appended to tell google to return a traditional `Web` search. The default `All` search can now include AI overviews and results. 'Web` includes just SEO links we all know and love.
